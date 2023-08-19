@@ -42,7 +42,7 @@ function adivinaNumero() {
         let intento = Math.floor(( inicio + fin ) /2 ); 
         acierto = confirm ("¿Es éste tu número? " + intento );
         if (acierto ){
-            alert ("Gran elección, tu numero es " + intento );
+            alert ("Excelente elección, tu número es " + intento + " ¡Fantastico!" );
         }
         else {
             let esMenor = confirm ("Tu número ¿es menor?");
